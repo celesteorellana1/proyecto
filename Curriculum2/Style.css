@@ -1,0 +1,25 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    background-color:rgb(73, 96, 26);
+}
+
+.list-links{
+    font: optional;color: yellow;
+}
+
+ul{
+    color:yellow;
+}
+
+p{
+    color: black;
+}
+
+div{
+    color: black;
+}
+
+a{
+    color: aquamarine;
+}

@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.wrapper{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(45, 45, 94);
+  color:white;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
+
+.brand{
+  margin-top: -23px;
+  font-size: 15px;
+}
+
+#inicio{
+  transition: transform 0.5s ease;
+}
+
+#inicio:hover{
+  transform: translateY(30px) scaleY(1);
+}
+
+
+.brand span{
+  color: rgb(255, 0, 98);
+}
+
+.menu {
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.menu .active{
+  color: rgb(255, 0, 255);
+}
+
+.menu a:hover{
+background-color: rgb(255, 0, 98);
+color:black;
+transition: ease-in .3s;
+}
+
+.main{
+  margin: 0 auto;
+  width: 80vw;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+}
+
+.info-porta{
+  margin-left: -70px;
+  margin-top: -200px;
+  text-align: justify;
+
+}
+
+h1{
+  font-size: 3em;
+  transition: transform 0.5s ease;
+
+}
+
+h1:hover{
+  transform: translateX(60px);
+}
+
+.divider{
+  height: 4px;
+  width: 60px;
+  background-color: rgb(255, 0, 98);
+  margin-top: 10px;
+  margin-bottom: 1em;
+  transition: transform 0.5s ease;
+}
+
+.divider:hover{
+  transform: translateX(60px);
+}
+
+.informacion{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  background-color: rgb(57, 63, 148);
+}
+
+.info-content{
+  margin-left: 20px;
+  margin-top: -60px;
+}
+
+#somos{
+  transition: transform 0.5s ease;
+}
+
+#somos:hover{
+  transform: translateX(15px);
+}
+
+.foto{
+  width: 390px;
+  margin: 50px 30px 50px 30px;
+}
+
+h2{
+  font-size: 3em;
+  color: white;
+}
+
+span{
+    color: rgb(255, 0, 98);
+}
+
+.span2{
+  color:rgb(220, 223, 40);
+}
+
+p{
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.volver{
+  display: inline-block;
+    padding: 5px 10px;
+    background-color:  rgb(138, 75, 209);
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    width: 100px;
+    margin-top: -5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+
+.curriculum{
+  display:grid;
+  grid-template-columns: repeat(10, 1fr);
+  width: 100vw;
+  align-items: center;
+  background-color: rgb(45, 45, 94);
+}
+
+.curriculum img {
+  width: 100%;
+  grid-column: 1/5;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.info-curriculum{
+  grid-column: 5/10;
+  padding: 3em;
+}
+
+.info-curriculum h2{
+  font-size: 2em;
+  color: white;
+}
+
+.boton{
+  display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(255, 0, 98);
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.divider{
+  height: 4px;
+  width: 60px;
+  background-color: rgb(255, 0, 98);
+  margin-top: 10px;
+  margin-bottom: 3em;
+}
+
+.curriculum p{
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.regresar{
+  display: inline-block;
+    padding: 10px 20px;
+    background-color:  rgb(138, 75, 209);
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    width: 100px;
+    margin-top: 200px;
+    margin-left: 600px;
+}
+
+.Calculadora{
+  display:grid;
+  grid-template-columns: repeat(10, 1fr);
+  width: 100vw;
+  align-items: center;
+  background-color: rgb(57, 63, 148);
+}
+
+.Calculadora img {
+  width: 80%;
+  grid-column: 1/5;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.info-calculadora{
+  grid-column: 5/10;
+  padding: 3em;
+  text-align: justify;
+}
+
+.info-calculadora h2{
+  font-size: 2em;
+  color: white;
+}
+
+.bot{
+  display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(255, 0, 98);
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.retornar{
+  display: inline-block;
+    padding: 10px 20px;
+    background-color:  rgb(138, 75, 209);
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    width: 100px;
+    margin-top: 310px;
+    margin-left: 600px;
+}
+
+.divider{
+  height: 4px;
+  width: 60px;
+  background-color: rgb(255, 0, 98);
+  margin-top: 10px;
+  margin-bottom: 3em;
+}
+
+.Calculadora p{
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Chat {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  width: 100vw;
+  align-items: center;
+  background-color: rgb(45, 45, 94);
+}
+
+.Chat img {
+  width: 80%;
+  grid-column: 6/11; /* Cambia el rango de columnas para ubicar la imagen en el lado derecho */
+  margin-right: 20px; /* Utiliza margin-right en lugar de margin-left para ajustar el margen en el lado derecho */
+  margin: 63px 10px 50px 10px;
+}
+
+.chat-firebase {
+  grid-column: 1/6; /* Cambia el rango de columnas para ubicar el contenido en el lado izquierdo */
+  padding: 3em;
+ 
+}
+
+#chatfi{
+  font-size: 2em;
+  color: white;
+  margin-top: -400px;
+  margin-bottom: 1em; /* Añade un margen inferior para separar el título del párrafo */
+}
+
+.bot {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(255, 0, 98);
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.divider {
+  height: 4px;
+  width: 60px;
+  background-color: rgb(255, 0, 98);
+  margin-top: 10px;
+  margin-bottom: 3em;
+}
+
+.Chat p {
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Cambio{
+  display:grid;
+  grid-template-columns: repeat(10, 1fr);
+  width: 100vw;
+  align-items: center;
+  background-color: rgb(57, 63, 148);
+}
+
+.Cambioimg {
+  width: 600px;
+  grid-column: 1/5;
+  margin-top: 30px;
+  margin-left: 15px;
+  margin-bottom: 50px;
+}
+
+.cambio-estilo{
+  grid-column: 5/10;
+  padding: 3em;
+  text-align: justify;
+}
+
+.cambio-estilo h2{
+  font-size: 2em;
+  color: white;
+}
+
+.cambiar{
+  display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(255, 0, 98);
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.Regre {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(138, 75, 209);
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 330px;
+  margin-bottom: -220px;
+}
+
+
+.divider{
+  height: 4px;
+  width: 60px;
+  background-color: rgb(255, 0, 98);
+  margin-top: 10px;
+  margin-bottom: 3em;
+}
+
+.Cambio p{
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: justify;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chat con firebase</title>
+    <link href="./chat.css" rel ="stylesheet">
+</head>
+<body>
+    <div class="flex-container-row">
+        <div>
+            <h1>Chat Utilizando Firebase</h1>   
+        </div>
+        <div>
+            <img id="imagenLogo" src="https://umg.edu.gt/assets/umg.png">  
+        </div>
+    </div>
+   <div class="flex-container-row">
+        <div>Estás conectado como:</div>
+   </div>
+   <div class="flex-container-row">
+    <div>
+        <div id="usuarioConectado"><b>No conectado</b></div>
+    </div>
+   </div>
+   <div class="flex-container-row">
+    <button class="botonIniciar" id="botonIniciar">Iniciar sesión</button>
+    <button class="botonCerrar"  id="botonCerrar" style="display:none">Cerrar sesión</button>
+   </div>
+    <div class="flex-container-row">
+        <div id= "mensajesChat" >
+        Acá deben aparecer los mensajes
+    </div>
+    </div>
+   <div class="flex-container-row">
+    <input type="text" id="textoMensaje" placeholder="Escribir tu mensaje y presionar Enter">
+   </div>
+    
+   
+
+    <script src="./scrip.js" type="module"></script>
+</body>
+</html>
